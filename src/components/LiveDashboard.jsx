@@ -10,7 +10,7 @@ const LiveDashboard = () => {
     efficiency: 94,
   });
 
-  const [chartData, setChartData] = useState([
+  const [chartData] = useState([
     { time: '00:00', value: 85 },
     { time: '04:00', value: 82 },
     { time: '08:00', value: 92 },
