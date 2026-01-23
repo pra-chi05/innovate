@@ -22,7 +22,7 @@ A comprehensive digital platform for monitoring and managing Delhi's waste manag
 
 ### Prerequisites
 
-- Node.js (v14 or higher)
+- Node.js (v18 or higher)
 - npm or yarn
 
 ### Installation
@@ -32,7 +32,7 @@ A comprehensive digital platform for monitoring and managing Delhi's waste manag
 npm install
 
 # Start development server
-npm start
+npm run dev
 ```
 
 The application will open at `http://localhost:3000`
@@ -43,12 +43,20 @@ The application will open at `http://localhost:3000`
 npm run build
 ```
 
+### Preview Production Build
+
+```bash
+npm run preview
+```
+
 ## 🛠️ Tech Stack
 
+- **Vite** - Next generation frontend tooling
 - **React** - Frontend framework
 - **Tailwind CSS** - Utility-first styling
 - **React Leaflet** - Interactive maps
-- **Framer Motion** - Smooth animations
+- **Recharts** - Data visualization
+- **Lucide React** - Modern icon library
 
 ## 🎨 Design Features
 
@@ -64,9 +72,29 @@ npm run build
 1. **Hero** - Main landing with initiative overview
 2. **Statistics** - Key performance indicators
 3. **Features** - Core platform capabilities
-4. **Interactive Map** - Delhi zone-wise projects
-5. **Initiatives** - Major ongoing/completed projects
-6. **Footer** - Government links and information
+4. **Waste Flow** - Complete waste-to-energy process flow
+5. **Live Dashboard** - Real-time operations monitoring
+6. **Image Gallery** - Infrastructure showcase
+7. **Interactive Map** - Delhi zone-wise projects
+8. **Initiatives** - Major ongoing/completed projects
+9. **Footer** - Government links and information
+
+## 🚀 Deployment
+
+### Vercel (Recommended)
+
+1. Push your code to GitHub
+2. Import project in Vercel dashboard
+3. Vercel will auto-detect Vite and configure automatically
+4. Deploy!
+
+### Other Platforms
+
+The `dist` folder contains the production build that can be deployed to any static hosting service:
+- Netlify
+- GitHub Pages
+- AWS S3
+- Cloudflare Pages
 
 ## 🇮🇳 Government Initiative
 
