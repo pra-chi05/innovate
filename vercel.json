@@ -1,6 +1,6 @@
 {
-  "buildCommand": "CI=false npm run build",
-  "publishDir": "build",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
   "rewrites": [
     {
       "source": "/(.*)",
