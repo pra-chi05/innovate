@@ -46,7 +46,7 @@ const ImageGallery = () => {
     {
       title: 'Water Treatment',
       icon: Droplets,
-      image: 'https://images.unsplash.com/photo-1582408928229-2f0f9f432e23?w=800&q=80',
+      image: 'https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?w=800&q=80',
       stat: '2M L/day',
       color: 'from-cyan-500 to-blue-500',
       description: 'Advanced water recycling systems',
